@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cursos</title>
+         <style>
+        body{
+            margin: 0;
+            background-color: #838585;
+        }
+        .container{
+            width: 600px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        header{
+            background-color: #506E6A;
+        }
+        .menu{
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/* centraliza o menu*/
+            gap: 20px; 
+        }
+        .imagem.cursos img{
+            margin: 20px;
+           width: 600px;
+           
+        }
+        .principal{
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center; /*centraliza o texto*/
+        }
+        footer{ /*rodape*/
+            clear: both;
+            background-color: #506E6A;
+            text-align: center;
+            color: white;
+        }
+        ul{
+            list-style-type: none;
+            color: #506E6A;
+        }
+        a,
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+        li{
+            float: left;
+        }
+        a:hover{
+            background-color: #506E6A;
+            color: white;
+        }       
+ </style>
+</head>
+<header>
+     <h1 style="color: whitesmoke; text-align: center;">Meus Cursos</h1> <!-- Titulo da pagina-->
+</header>
+<body>
+   <nav class="container menu"> <!-- menu-->
+    <ul>
+    <li><a href="meusite.html">Inicio</a></li>
+    <li><a href="hobbies.html">Meus Hobbies</a></li>
+    <li><a href="sobremim.html">Sobre Mim</a></li>
+    <li><a href="cursos.html">Meus Cursos</a></li>
+    </ul>
+   </nav>
+    <div class="container">
+        <aside class="imagem.cursos"> <!-- imagens-->
+            <img src="imagens/download.png" style="width: 150px;">
+            <img src="imagens/etec_santo_andre.png" style="width: 150px;">
+            <img src="imagens/download.jpg" style="width: 150px;">
+            <br>
+        </aside>
+        <section>
+            <h1 style="color: #506E6A; text-align: center;">Cursos</h1> <!-- Titulo e texto-->
+            <p>Frequentei a escola profissionalizante de Inglês chamada Enjoy, durante dois anos e meio. La tive aulas de inglês e informática. Embora precise fazer outro curso para atualizar o vocabulário, na Enjoy aprendi bastante sobre as estruturas gramaticáis do inglês, aprendi a traduzir com as musicas mais famosas. Mas só conseguir praticar a conversação depois que cheguei no Japão. </p>
+            <p>Fiz o curso técnico de Automação Industrial, na escola de tecnologia Jetulio Vargas do Centro Paula Souza, duração de dois anos. na Etec aprendi muito sobre as industrias e os componentes, minha materia predileta era de programação em Ladder do CLP, mas tambem aprendi um pouco a mexer com o Arduino utilizando a linguagem C e C++ de programação.</p>
+            <p>Atualmente estou cursando o curso de Analise e Desenvolvimento de Sistemas da Uninter a distancia.</p>
+        </section>
+        <footer class="container"> <!-- Rodape-->
+           <p style="text-align: center;">2025 Atália Midory Nakamura</p>
+        </footer>
+</body>
+</html>

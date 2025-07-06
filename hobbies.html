@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Hobbies</title>
+     <style>
+        body{
+            margin: 0;
+            background-color: #838383;
+
+        }
+        .container{
+            width: 600px;
+            margin: 0 auto;
+            padding: 15px;;
+        }
+        header{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+        }
+        .menu{
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/* centraliza o menu*/
+            gap: 20px; 
+        }
+        .imagem.livros img{ /* inserção de imagem*/
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .principal{ /* pagina principal*/
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+        }
+        footer{ /* rodape*/
+            clear: both;
+            background-color: #506E6A;
+            text-align: center;
+            color: white;
+        }
+        ul{
+            list-style-type: none;
+            color: #506E6A;
+        }
+        a,
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+        li{
+            float: left;
+        }
+        a:hover{
+            background-color: #506E6A;
+            color: white;
+        }
+        
+ </style>
+</head>
+ 
+<body>
+  <header>
+        <h1 style="color: whitesmoke; text-align: center;">Meus Hobbies</h1> <!-- Titulo da pagina-->
+    </header> 
+   
+  <nav class="container menu"> 
+    <ul> <!-- Menu -->
+    <li><a href="meusite.html">Inicio</a></li> 
+    <li><a href="hobbies.html">Meus Hobbies</a></li>
+    <li><a href="sobremim.html">Sobre Mim</a></li>
+    <li><a href="cursos.html">Meus Cursos</a></li>
+    </ul>
+  </nav> 
+  
+<div class="container"> <!-- inserção de imagem-->
+        <aside class="imagem_livros">
+            <img src="imagens/6E56267F-5669-49CE-B94C-4D82DF760327.jpg" style="width: 250px;">
+        </aside>
+</div>
+    <section>
+        <h1 style="color: #506E6A; text-align: center;">Meus Hobbies</h1> <!-- Titulo e texto-->
+        <p>Um dos meus Hobbies que eu não abro mão é a leitura. Gosto muito de ler, desde os meus 14 anos tenho lido diversos livros, de diversos generos. Mas um dos generos que mais gosto é a fantasia, poder ler sobre um mundo completamente ficticio me deixa muito empolgada.</p>
+        <p>Outro hobbie que cultivo é o artesanato, gosto de criar pulseiras e colares de miçangas e pode se dizer que para mim é um tipo de terapia.</p>
+        <p>Meu ultimo hoobie que adiquiri recentemente é o de montar Legos. Para algumas pessoas pode ser um pouco infantil, afinal uma adulta brincando de blocos de montar, mas para mim é satisfatório. É como montar quebra-cabeça, tem um certo desafio que eu não consigo explicar</p>
+    </section>
+    <footer class="container">
+        <p style="text-align: center;">2025 Atália Midory Nakamura</p> <!-- rodape -->
+    </footer>
+
+</body>
+</html>
