@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+     <style>
+        body{
+            margin: 0;
+            background-color: #838585;
+        }
+        .container{
+            width: 600px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        header{
+            background-color: #506E6A;
+        }
+        .menu{
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/* centraliza o menu*/
+            gap: 20px; 
+        }
+        .imagem.eu img{
+           width: 600px;
+           
+        }
+        .principal{
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center; /*centraliza o texto*/
+        }
+        footer{
+            clear: both;
+            background-color: #506E6A;
+            text-align: center;
+            color: white;
+        }
+        ul{
+            list-style-type: none;
+            color: #506E6A;
+        }
+        a,
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+        li{
+            float: left;
+        }
+        a:hover{
+            background-color: #506E6A;
+            color: white;
+        }
+        
+ </style>
+</head>
+<body>
+  <header>
+    <h1 style="color: whitesmoke; text-align: center;">Bem-Vindo ao Meu Site</h1>
+  </header>
+  <nav class="container menu">
+    <!-- Menu -->
+    <ul>
+    <li><a href="meusite.html">Inicio</a></li>
+    <li><a href="hobbies.html">Meus Hobbies</a></li>
+    <li><a href="sobremim.html">Sobre Mim</a></li>
+    <li><a href="cursos.html">Meus Cursos</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <!-- Imagem-->
+        <aside class="imagem.eu">
+            <img src="imagens/3CE93198-F5E8-46D0-86B4-0EAA8370E7AE.jpg" style="width: 250px;">
+            <div class="infos"> <!-- introdução -->
+                <p><strong>Ocupação</strong> Estudante e Técnica em Automação Industrial</p>
+                <p>
+                    <strong>Data de Nascimento</strong>
+                    05/01/1999
+                </p>
+            </div>
+        </aside>
+        <section>
+            <!-- Titulo -->
+            <h1>Atália Midory</h1>
+            <!--informação -->
+            <p>Olá, bem vindos ao meu site, meu nome é Atália Midory e moro no Japão, por aqui irei contar um pouquinho sobre mim e o que eu gosto de fazer nas horas vagas e etc.</p>
+            <p>Falarei também, como foi vir para o Japão e um pouquinho da minha experiência do dia a dia.</p>
+            <p>Gostaria de te convidar para saber um pouquinho mais sobre mim e o que faço por aqui.</p>
+
+        </section>
+  </div>
+  <footer class="container"> <!-- Rodape -->
+    <p style="text-align: center;">2025 Atália Midory Nakamura</p>
+</footer>
+</body>
+</html>
